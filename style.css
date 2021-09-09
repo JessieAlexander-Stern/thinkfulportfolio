@@ -1,0 +1,88 @@
+/*create tan box around the header*/
+header {
+    margin-top:45px;
+    background-color: tan;
+    border-radius: 20px;
+    height: 200px;
+    padding: 25px;
+    text-align: center;
+    font-family:  Verdana, sans-serif;
+}
+/*create background for entire body*/
+body {
+    background-color: darkseagreen;
+    margin-top: 45px;
+}
+
+h1{
+    font-size: 50px;
+    color: #4d6a5b;
+  }
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+.corner {
+    border-radius: 25px;
+}
+
+main {
+    font-family: "Comic Sans MS", Verdana, sans-serif;
+}
+
+/*place aside on the left of the page*/
+aside {
+    width: 50%;
+    float: left;
+    display: inline;
+    padding-bottom: 100px;
+}
+
+/*place intro section on the right side of the page*/
+section {
+    width: 50%;
+    float: right;
+    display: inline;
+    padding-bottom: 300px;
+}
+
+article {
+    padding-top: 300px;
+    
+}
+
+ul, ol, a {
+    font-size: 20px;
+}
+
+hr {
+    border: 20px solid black;
+    border-radius: 15px;;
+    }
+
+/*change styling of the links*/
+a:link {color: green;}
+a:visited {color: black;}
+a:hover {color: brown;}
+a:active {color: red;}
+
+/*add tan box around the footer which contain the contact links*/
+footer {
+    font-size: 30px;
+    padding-bottom: 100px;
+    padding-left: 800px;
+    text-align: justify;
+    background-color: tan;
+    width: 100%;
+    float: right;
+    height: 200px;
+    border-radius: 20px;
+   }
